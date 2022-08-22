@@ -1,0 +1,21 @@
+download xampp + project + db. giải nén project
+
+b1. Mở file cài đặt của xampp lên, cài đặt như bình thường.
+Click next next...
+
+Di chuyển folder Quanlibanhang vào bên trong folder htdocs (C:\xampp\htdocs)
+b2. tắt các dịch vụ đang chạy trên máy để tránh xung đột như MySQL80, World Wide Web, N...
+ấn vào nút cửa sổ tìm services. Ấn chuột phải vào dịch vụ cần tắt, chọn properties -> chọn stop -> chọn Manual ở Startup type. Xong ấn Apply và OK
+
+b3. Bật xampp, start apache và start...
+vào web bằng trình duyệt chrome
+nhập localhost, ấn enter -> chọn phpMyAdmin -> chọn vào mới (hoặc new ở phần bên trái) để tạo mới csdl tên là: quanlybanhang
+Trong database quanlybanhang, chọn vào import(hoặc nhập), sau đó chỉ đường dẫn đến file quanlybanhang.sql -> Nhấn Go (hoặc thực hiện) để import
+
+b4. sau khi import thành công data thì trên phần địa chỉ của trình duyệt nhập: localhost/Quanlybanhang/login.php để đăng nhập
+(tài khoản xem ở table quản trị ở trong database (có thể đổi thành thông tin của mình cho thầy dễ nhận biết)
+
+oke.....done...good luck!!!
+
+link download xampp: https://www.apachefriends.org/download.html
+link project + db: https://drive.google.com/drive/folders/1DqpBsN0Xa9wEu3EKVLDBtz5Y6m_gs02V?usp=sharing
